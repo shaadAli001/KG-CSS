@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#text {
+  text-align: center;
+  background-color: rgba(248, 145, 96, 0.85);
+  color: white;
+}
+#image {
+  height: 150px;
+  width: 150px;
+  background-image: url(../Image/logo.jpeg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background: (rgb(0, 255, 38),url(../Image/MYNTRA.png),no-repeat,none,center);
+}
+/* img {
+  margin-top: 1rem;
+  height: 150px;
+  width: 150px;
+ 
+} */
