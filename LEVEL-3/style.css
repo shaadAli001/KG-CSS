@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: underline;
+  font-family: "Lobster Two", sans-serif;
+}
+
+body {
+  height: 1000vh;
+}
+.box {
+  height: 150px;
+  width: 150px;
+  border: 2px solid black;
+  margin: 0.5rem;
+  color: white;
+}
+#box1 {
+  text-align: center;
+  background-color: red;
+}
+#box2 {
+  text-align: left;
+  background-color: blue;
+}
+#box3 {
+  text-align: right;
+  background-color: blueviolet;
+}
+#box4 {
+  text-decoration: overline;
+}
+#box5 {
+  text-decoration: underline;
+}
+#box6 {
+  text-decoration: line-through;
+}
+
+#box7 {
+  text-decoration-style: dashed;
+  text-decoration-color: red;
+  text-transform: uppercase;
+}
+#box8 {
+  text-decoration-style: solid;
+  text-decoration-color: green;
+  text-transform: lowercase;
+}
+#box9 {
+  text-decoration-style: wavy;
+  text-decoration-color: violet;
+  text-transform: capitalize;
+}
+#box10 {
+  text-decoration-style: double;
+  text-decoration-color: yellow;
+  text-transform: none;
+}
+#para1 {
+  line-height: 60px;
+  font-style: italic;
+}
+#para2 {
+  line-height: 6px;
+}
+#link {
+  text-decoration: none;
+}
