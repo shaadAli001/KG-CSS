@@ -19,9 +19,11 @@ button {
 }
 .box2 {
   margin: 0.5rem;
-  background-color: green;
+  background-color: violet;
   height: 120px;
   width: 120px;
+   /* Hidden property */
+  visibility: hidden;
 }
 .box3 {
   margin: 0.5rem;
