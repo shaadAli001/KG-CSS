@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#first {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+#Second {
+  background: green;
+}
+button {
+  background: blue;
+}
+.box1 {
+  margin: 0.5rem;
+  background-color: red;
+  height: 120px;
+  width: 120px;
+}
+.box2 {
+  margin: 0.5rem;
+  background-color: green;
+  height: 120px;
+  width: 120px;
+}
+.box3 {
+  margin: 0.5rem;
+  background-color: blue;
+  height: 120px;
+  width: 120px;
+}
+#icon {
+  height: 150px;
+  width: 150px;
+  background-image: url(./Image/MYNTRA.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
