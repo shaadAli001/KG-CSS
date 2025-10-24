@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-size: 50px;
+  /* font-size: 50px; */
 }
 body {
   height: 1000vh;
@@ -35,4 +35,28 @@ h1 {
   width: 50%;
   height: 25%;
   font-size: 0.5rem;
+}
+.box2 {
+  background-color: rgb(189, 189, 10);
+  margin: 5px;
+  width: 100px;
+  height: 100px;
+}
+#box11 {
+  position: static;
+}
+#box12 {
+  position: relative;
+  top: 20px;
+  left: 50px;
+}
+#box13 {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  bottom: 50px;
+}
+#box14 {
+  position: fixed;
+  left: 25px;
 }
