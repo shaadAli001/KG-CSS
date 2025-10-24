@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+}
+body {
+  height: 1000vh;
+  /* width: 1000vw; */
+}
+h1 {
+  text-align: center;
+  color: blue;
+}
+.box {
+  text-align: center;
+  height: 100px;
+  width: 200px;
+  border: 2px solid black;
+  margin: 2px;
+  background-color: yellowgreen;
+  display: inline-block;
+}
+#box1 {
+  /* visibility: hidden; */
+  display: none;
+}
+#first {
+  height: 100px;
+  width: 100px;
+  background-color: aqua;
+  font-size: 1rem;
+}
+#second {
+  background-color: violet;
+  width: 50%;
+  height: 25%;
+  font-size: 0.5rem;
+}
