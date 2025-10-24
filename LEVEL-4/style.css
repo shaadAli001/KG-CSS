@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.btn {
+  background-color: slateblue;
+  padding: 5px 10px 15px 20px;
+  border: 2px dashed black;
+  margin: 5px 10px 15px 20px;
+}
+.btn2 {
+  height: 100px;
+  width: 100px;
+  border: 5px solid black;
+  background-color: aqua;
+  border-radius: 30px;
+}
+.btn3 {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  background-color: violet;
+}
+#btn1 {
+  box-sizing: border-box;
+}
+#btn2 {
+  box-sizing: content-box;
+}
