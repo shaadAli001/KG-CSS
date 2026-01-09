@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  /* in case of width: max-width is higly used
+  in case of height: min-height is higly used */
+  
+}
+/* Container */
+/* .container {
+  width: 800px;
+  margin: 0 auto;
+  background-color: gray;
+  color: white;
+} */
+
+/* Max-width in block element */
+/* .container {
+  max-width: 800px; width changes as size of browser width changes
+  height: 500px;
+  margin: 0 auto;
+  background-color: gray;
+  color: white;
+} */
+
+/* max-width in inline  to set max-width in inline use display:inline-block */
+/* img{
+  max-width: 800px;
+  width: 100%;
+  max-height: 500px;    Remeber in inline element max-width must be used with 100%
+  height: 100%;          so that is changes with size    
+} */
+
+/* min-width block */
+/* .card {
+  height: 200px;
+  width: 800px;
+  background-color: salmon;
+} */
+
+/* min-width in inline */
+/* .no-width {
+  background-color: salmon;
+  display: inline-block;
+  text-align: center;
+}
+
+.width {
+  display: inline-block;
+  width: 100px;
+  background-color: lightgreen;
+  text-align: center;
+}
+
+.min-width {
+  background-color: lightskyblue;
+  min-width: 100px;
+  text-align: center;
+  display: inline-block;
+} */
+
+/* max-height depends on content Its used when content dose not exceed certian height*/
+/* .box2 {
+  width: 1000px;
+  max-height: 400px;
+  background-color: lightgray;
+  overflow: hidden;
+} */
